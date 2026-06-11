@@ -1,0 +1,20 @@
+{
+  "name": "vibe-project-start",
+  "interface": {
+    "displayName": "Vibe Project Start"
+  },
+  "plugins": [
+    {
+      "name": "vibe-project-start-plugin",
+      "source": {
+        "source": "local",
+        "path": "./plugins/vibe-project-start-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

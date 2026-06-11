@@ -1,0 +1,20 @@
+{
+  "name": "vibe-project-start-plugin",
+  "version": "0.1.0",
+  "description": "Plan AI-built projects before coding with MVP scope, milestones, Git checkpoints, and frontend skeleton rules.",
+  "author": {
+    "name": "ZHUZHU"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Vibe Project Start",
+    "shortDescription": "Plan MVP, Git, and UI skeleton before coding.",
+    "longDescription": "Vibe Project Start helps Codex prepare an AI-built app, site, or tool before implementation. It creates kickoff docs for the project brief, MVP, milestones, AI collaboration rules, Git checkpoints, and optional frontend skeleton decisions such as design style, UI library, component rules, tokens, i18n, and themes.",
+    "developerName": "ZHUZHU",
+    "category": "Productivity",
+    "capabilities": [
+      "skills"
+    ],
+    "defaultPrompt": "Use $vibe-project-start to prepare this project before writing code: define the MVP, milestones, folder structure, Git checkpoints, frontend skeleton, and AI collaboration roles."
+  }
+}

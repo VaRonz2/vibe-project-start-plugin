@@ -1,0 +1,4 @@
+interface:
+  display_name: "Vibe Project Start"
+  short_description: "Plan MVP, Git, and UI skeleton"
+  default_prompt: "Use $vibe-project-start to prepare this project before writing code: define the MVP, milestones, folder structure, Git checkpoints, frontend skeleton, and AI collaboration roles."
